@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%; /* Warm Off-White #FAFAFA */
+    --foreground: 0 0% 13%; /* Rich Black #212121 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+
+    --primary: 231 100% 59%; /* Primary Blue #304FFE */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 76% 30%; /* Dark Navy #1A237E */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%; /* Soft Gray #F5F5F5 */
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 51 100% 50%; /* Accent Gold #FFD700 */
+    --accent-foreground: 0 0% 13%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 231 100% 59%;
+
+    --radius: 9999px;
+  }
+
+  .dark {
+    --background: 0 0% 13%; /* Rich Black #212121 */
+    --foreground: 0 0% 98%; /* Warm Off-White #FAFAFA */
+
+    --card: 0 0% 13%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 13%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 231 100% 59%; /* Primary Blue #304FFE */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 76% 30%; /* Dark Navy #1A237E */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 51 100% 50%; /* Accent Gold #FFD700 */
+    --accent-foreground: 0 0% 13%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 30%;
+    --input: 0 0% 30%;
+    --ring: 231 100% 59%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-poppins font-normal;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-poppins font-bold;
+  }
+}
+
+@layer components {
+  .callout,
+  blockquote {
+    @apply font-poppins font-medium italic;
+  }
+
+  .btn,
+  .button,
+  button {
+    @apply font-poppins font-semibold;
+  }
+}
+
+/* Keep existing utilities */
+@layer utilities {
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
