@@ -17,27 +17,27 @@ const steps: Step[] = [
     number: "1",
     title: "Choose one of The Great Books to read",
     description: "We have activities developed for 15 of the most important books ever written.",
-    image: "/placeholder.svg",
+    image: "https://synto-images.s3.eu-north-1.amazonaws.com/step_1+how+it+works.jpg",
   },
   {
     number: "2",
     title: "Before you read",
     description:
       "Spend 15 minutes on our pre-reading activities that will leave you in the best shape to understand the book at a deeper level from the first chapter.",
-    image: "/placeholder.svg",
+    image: "https://synto-images.s3.eu-north-1.amazonaws.com/step_2+how+it+works.jpg",
   },
   {
     number: "3",
     title: "While you read",
     description:
       "Check in after every reading session - store important notes from what you read and see our experts tips to get more from the book. You can also join our community to discuss with others' who are reading the same book.",
-    image: "/placeholder.svg",
+    image: "https://synto-images.s3.eu-north-1.amazonaws.com/step_3+how+it+works.jpg",
   },
   {
     number: "4",
     title: "After reading",
     description: "Take our post-reading activities to apply what you learned and enhance your understanding.",
-    image: "/placeholder.svg",
+    image: "https://synto-images.s3.eu-north-1.amazonaws.com/step_4+how+it+works.jpg",
   },
 ]
 

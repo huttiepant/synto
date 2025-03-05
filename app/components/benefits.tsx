@@ -24,7 +24,7 @@ const benefitSections = [
           "The lessons you learn here don't stop once you finish using the app. They are now yours to use however you want, whenever you want.",
       },
     ],
-    image: "/placeholder.svg",
+    image: "https://synto-images.s3.eu-north-1.amazonaws.com/benefits_1.jpg",
   },
   {
     benefits: [
@@ -46,7 +46,7 @@ const benefitSections = [
           "A study in 2014 showed that only 2% of people read at the highest level. We help you get to that level.",
       },
     ],
-    image: "/placeholder.svg",
+    image: "https://synto-images.s3.eu-north-1.amazonaws.com/benefits_2.jpg",
   },
 ]
 
