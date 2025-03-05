@@ -5,9 +5,8 @@ export default function Hero() {
   return (
     <section className="w-full pt-24 pb-8 sm:pt-28 md:pt-32 md:pb-12 lg:pt-36 lg:pb-16 bg-warm-white">
       <div className="container max-w-5xl mx-auto px-4">
-        <div className="flex flex-col lg:grid lg:grid-cols-[1fr_400px] lg:gap-6 xl:grid-cols-[1fr_450px] items-center">
-          {/* Header and subheading */}
-          <div className="flex flex-col justify-center space-y-4 text-center lg:text-left mb-6 lg:mb-0">
+        <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-6 xl:grid-cols-[1fr_450px] items-center">
+          <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter text-dark-navy sm:text-4xl md:text-5xl xl:text-6xl/none">
                 Become an Active Reader
@@ -16,24 +15,19 @@ export default function Hero() {
                 Your reading assistant to help you improve your understanding of The Great Books.
               </p>
             </div>
-          </div>
-
-          {/* Image - on mobile it appears after text, before button */}
-          <div className="flex items-center justify-center lg:justify-end mb-6 lg:mb-0">
-            <div className="relative w-full max-w-[400px] aspect-[4/3]">
-              <Image src="/placeholder.svg" alt="Hero" fill className="object-cover rounded-lg shadow-lg" priority />
+            <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
+              <Button size="lg" className="bg-primary-blue text-white hover:bg-primary-blue/90 rounded-full">
+                Get Started
+              </Button>
             </div>
           </div>
-
-          {/* Button - appears at the bottom on mobile, next to text on desktop */}
-          <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start lg:col-start-1 lg:row-start-1 lg:self-end lg:mt-16">
-            <Button size="lg" className="bg-primary-blue text-white hover:bg-primary-blue/90 rounded-full">
-              Get Started
-            </Button>
+          <div className="flex items-center justify-center lg:justify-end">
+            <div className="relative w-full max-w-[400px] aspect-[4/3]">
+              <Image src="s3://synto-images/hero1.jpg" alt="Hero" fill className="object-cover rounded-lg shadow-lg" priority />
+            </div>
           </div>
         </div>
       </div>
     </section>
   )
 }
-
