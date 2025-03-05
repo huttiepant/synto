@@ -23,7 +23,7 @@ export default function Hero() {
           </div>
           <div className="flex items-center justify-center lg:justify-end">
             <div className="relative w-full max-w-[400px] aspect-[4/3]">
-              <Image src="s3://synto-images/hero1.jpg" alt="Hero" fill className="object-cover rounded-lg shadow-lg" priority />
+              <Image src="shttps://synto-images.s3.eu-north-1.amazonaws.com/hero1.jpg" alt="Hero" fill className="object-cover rounded-lg shadow-lg" priority />
             </div>
           </div>
         </div>
