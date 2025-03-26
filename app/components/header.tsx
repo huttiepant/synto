@@ -24,8 +24,17 @@ export default function Header() {
           </SheetTrigger>
           <SheetContent className="bg-warm-white">
             <nav className="flex flex-col space-y-4 mt-6">
-              <Button asChild className="w-full bg-primary-blue hover:bg-primary-blue/90">
-                <Link href="/get-started">Get Started</Link>
+              <Button
+                asChild
+                className="w-full bg-primary-blue hover:bg-primary-blue/90 text-white"
+              >
+                <a
+                  href="https://book.synto-app.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get Started
+                </a>
               </Button>
             </nav>
           </SheetContent>
