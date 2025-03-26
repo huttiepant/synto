@@ -155,8 +155,14 @@ export default function HowItWorks() {
           </div>
         </div>
         <div className="flex justify-center mt-12">
-          <Button size="lg" className="rounded-full bg-primary-blue hover:bg-primary-blue/90">
-            Get Started Now
+          <Button
+            asChild
+            size="lg"
+            className="rounded-full bg-primary-blue hover:bg-primary-blue/90 text-white"
+          >
+            <a href="https://book.synto-app.com/" target="_blank" rel="noopener noreferrer">
+              Get Started Now
+            </a>
           </Button>
         </div>
       </div>
