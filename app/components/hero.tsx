@@ -16,8 +16,14 @@ export default function Hero() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
-              <Button size="lg" className="bg-primary-blue text-white hover:bg-primary-blue/90 rounded-full">
-                Get Started
+              <Button
+                asChild
+                size="lg"
+                className="bg-primary-blue text-white hover:bg-primary-blue/90 rounded-full"
+              >
+                <a href="https://book.synto-app.com/" target="_blank" rel="noopener noreferrer">
+                  Get Started
+                </a>
               </Button>
             </div>
           </div>
