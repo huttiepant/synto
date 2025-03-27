@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* GA4 Script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5H3Q3JTZWR"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -30,8 +30,25 @@ export default function RootLayout({
             `,
           }}
         ></script>
+
+        {/* ✅ Termly Cookie Consent Banner */}
+        <script
+          type="text/javascript"
+          src="https://app.termly.io/embed.min.js"
+          data-auto-block="on"
+          data-website-uuid="53e3248a-6e3a-470b-9917-854196da6de7"
+        ></script>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+
+        {/* Optional: Consent Preferences Link */}
+        <footer className="mt-8 text-center">
+          <a href="#" className="termly-display-preferences text-sm text-gray-500 underline">
+            Consent Preferences
+          </a>
+        </footer>
+      </body>
     </html>
   )
 }
