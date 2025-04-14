@@ -9,10 +9,10 @@ export default function Hero() {
           <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter text-dark-navy sm:text-4xl md:text-5xl xl:text-6xl/none">
-                Become an Active Reader
+                Remember more of what you read
               </h1>
               <p className="text-lg font-normal text-rich-black/80 md:text-xl max-w-[500px] mx-auto lg:mx-0">
-                Your reading assistant to help you improve your understanding of The Great Books.
+                Synto teaches you how to become an Active Reader with fun micro lessons and insights
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
