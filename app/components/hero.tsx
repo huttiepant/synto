@@ -12,7 +12,7 @@ export default function Hero() {
                 Remember more of what you read
               </h1>
               <p className="text-lg font-normal text-rich-black/80 md:text-xl max-w-[500px] mx-auto lg:mx-0">
-                Synto teaches you how to become an Active Reader with fun micro lessons and insights
+                Transform how you read the classics—with micro-lessons and sharp insights that train you to think like a philosopher.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
