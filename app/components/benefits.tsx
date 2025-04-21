@@ -3,11 +3,11 @@ import { MonitorSmartphone, Palette, Users, BarChart, Shield, Zap } from "lucide
 
 const benefitSections = [
   {
-    title: "Benefits you get when using Synto",
+    title: "Synto gives you these benefits",
     benefits: [
       {
         icon: <MonitorSmartphone className="h-8 w-8 text-primary-blue" />,
-        title: "Approach The Great Books with increased understanding",
+        title: "Approach the classics with increased understanding",
         description:
           "Our carefully designed activities make reading the toughest books more enjoyable and more relatable.",
       },
@@ -30,7 +30,7 @@ const benefitSections = [
     benefits: [
       {
         icon: <BarChart className="h-8 w-8 text-primary-blue" />,
-        title: "Link The Big Ideas across The Great Books",
+        title: "Link he big ideas across the classics",
         description:
           "Every book on Synto has been carefully chosen as they contain the most important ideas to humankind. We help you discover the main themes and connect the lessons you take from reading.",
       },
