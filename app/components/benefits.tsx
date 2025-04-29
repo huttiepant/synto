@@ -30,7 +30,7 @@ const benefitSections = [
     benefits: [
       {
         icon: <BarChart className="h-8 w-8 text-primary-blue" />,
-        title: "Link he big ideas across the classics",
+        title: "Link the big ideas across the classics",
         description:
           "Every book on Synto has been carefully chosen as they contain the most important ideas to humankind. We help you discover the main themes and connect the lessons you take from reading.",
       },
