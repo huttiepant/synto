@@ -1,4 +1,5 @@
 // app/layout.tsx
+import React from 'react'
 import type { Metadata } from 'next'
 import './globals.css'
 import TermlyConsentBanner from '@/components/TermlyConsentBanner'
@@ -29,6 +30,7 @@ export default function RootLayout({
                 send_page_view: true,
                 allow_ad_personalization_signals: false
               });
+              gtag('config', 'AW-17026253560');
             `,
           }}
         ></script>
