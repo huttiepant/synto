@@ -9,10 +9,10 @@ export default function Hero() {
           <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter text-dark-navy sm:text-4xl md:text-5xl xl:text-6xl/none">
-                Retain more of what you read
+                Make Philosophy More Accessible
               </h1>
               <p className="text-lg font-normal text-rich-black/80 md:text-xl max-w-[500px] mx-auto lg:mx-0">
-                Transform how you read the classics—with micro-lessons and sharp insights that train you to think like a philosopher.
+                Micro-lessons and unique insights to help you read and understand philosophy books.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
